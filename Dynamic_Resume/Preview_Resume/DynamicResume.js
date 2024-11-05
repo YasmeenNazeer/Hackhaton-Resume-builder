@@ -16,8 +16,6 @@ window.addEventListener('load', () => {
     const startYear = localStorage.getItem('startYear');
     const endYear = localStorage.getItem('endYear');
     const profilePicture = localStorage.getItem('form_profilePic');
-
-    
     document.getElementById('form_name').textContent = name;
     document.getElementById('jobTitle').textContent = jobTitle;
     document.getElementById('phone').textContent = phone;

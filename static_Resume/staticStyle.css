@@ -2,31 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: serif;
   }
   
   body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #B5CA8D;
+    padding: 1.25rem;
   }
   
   #mainDiv {
     width: 100%;
-    max-width: 800px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color:lightgoldenrodyellow;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    border: 2px solid;
+    max-width: 50rem;
+    padding: 1.25rem;
+    border-radius: .3125rem;
+    background-color:#8bb174;
+    box-shadow: .75rem .75rem  .5rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.875rem;
+    border: .125rem solid #2A4849 ;
+    padding-bottom: 2.1875rem;
   }
   
   img {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
     border-radius: 50%;
     object-fit: cover;
   }
@@ -35,79 +36,102 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .personal h1 {
-    font-size: 36px;
-    color: #000000;
+    font-size: 42px;
+    color: #1b1b1b;
+    margin-left: .9375rem;
+    
   }
   
   .personal h2 {
-    font-size: 18px;
-    margin-top: 5px;
-    color: #000000;
+    font-size: 27px;
+    margin-top: .3125rem;
+    color: #1b1b1b;
+    margin-left: 1.5rem;
+    
   }
   
   .contact-info {
     display: flex;
+    font-size: 1.25rem;
     justify-content: space-between;
-    padding: 10px;
-    background-color:rgb(145, 49, 230);
-    border-radius: 5px;
-    margin-top: 20px;
-    color: white;
+    padding: .9375rem;
+    background-color:#2A4849;
+    border-radius: .3125rem;
+    margin-top: 1.25rem;
+    color: rgb(224, 223, 223);
   }
   
   .contact-info .para {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 1rem;
+    color: rgb(217, 217, 217);
   }
   
   .heading {
-    font-size: 24px;
+    font-size: 1.75rem;
     color: #000000;
-    padding: 10px;
-    background-color: rgb(145, 49, 230);
-    border-radius: 5px;
-    margin-top: 20px;
+    padding: .625rem;
+    background-color: #2A4849;
+    border-radius: .3125rem;
+    margin-top: 1.875rem;
     color: white;
-  }
+    font-family: 'Times New Roman', Times, serif;
+    }
   
   
   .contPara {
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-top: 1.125rem;
+    font-family: serif;
+    color: rgb(44, 43, 43);
+    margin-left: .625rem;
+    
   }
   
   #skillSec ul {
-    margin-left: 25px;
+    margin-left: 1.375rem;
+    margin-top: .9375rem;
   }
   
   #btnDiv {
     width: 100%;
-    max-width: 800px;
-    padding: 20px;
+    max-width: 50rem;
+    padding: 1.25rem;
     text-align: center;
-    background-color:lightgoldenrodyellow;
-    border-radius: 10px;
-    border: 2px solid;
+    background-color:#8bb174;
+    border-radius: .3125rem;
+    border: .125rem solid #2A4849;
+    box-shadow: .75rem .75rem  .5rem rgba(0, 0, 0, 0.1);
+  }
+  #btnDiv h3{
+      font-size: 1.875rem;
+      margin-bottom: .625rem;
+      font-family: 'Times New Roman', Times, serif;
   }
   
   .btn {
-    font-size: 14px;
+    font-size: 1.375rem;
     font-weight: 600;
-    padding: 10px 20px;
-    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: .625rem 1.25rem;
+    margin: .3125rem;
+    margin-top: .625rem;
     border: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     cursor: pointer;
-    background-color: rgb(145, 49, 230);
+    background-color: #2A4849;
     color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
   }
   
   .btn:hover {
-    background-color: #8c8c8c;
+    background-color: #bddb85;
+  }
+  .btn:active{
+    transform: scale(0.90);
   }
   
   .sp {
@@ -117,7 +141,7 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
+  @media (max-width: 48rem) {
     #mainDiv, #btnDiv {
       width: 100%;
     }
@@ -128,7 +152,7 @@
     }
   
     img {
-      margin-top: 20px;
+      margin-top: 1.25rem;
     }
   
     .contact-info {
@@ -137,7 +161,7 @@
   
     .btn {
       width: 100%;
-      margin: 10px 0;
+      margin: .625rem 0;
     }
   }
   
